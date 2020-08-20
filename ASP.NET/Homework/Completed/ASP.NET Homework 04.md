@@ -12,7 +12,9 @@
 *What kind of applications do the following templates create? Run these commands and read the documentation. A brief summary of each template is sufficient.*
 
 **Answer**
+
 ***dotnet new console --help***
+
 *console application
 Options:
   -h, --help          Displays help for this command.
@@ -30,6 +32,7 @@ Options:
   --update-apply      Check the currently installed template packs for update, and install the updates.*
 
 ***dotnet new mvc --help***
+
 *Model View Controller
 Options:
   -h, --help          Displays help for this command.
@@ -47,6 +50,7 @@ Options:
   --update-apply      Check the currently installed template packs for update, and install the updates.*
 
 ***dotnet new web --help***
+
 *for creating asp.net it doesnt have mvc
 Options:
   -h, --help          Displays help for this command.
@@ -85,9 +89,12 @@ Options:
 *What do the following two commands do?*
 
 **Answer**
+
 ***dotnet build***
+
 *Builds it source code turn it into byte code*
 ***dotnet run***
+
 *Byte code into machine code then sends it to compiler then pc to run it*
 
 
