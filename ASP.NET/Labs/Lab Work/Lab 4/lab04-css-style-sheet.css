@@ -1,0 +1,48 @@
+h2
+{
+	font-variant: small-caps;
+	text-align: center;
+	border: 6px #9999ff dashed;
+	padding: 12px;
+}
+
+
+body
+{
+	border: 2px black solid;
+	padding: 24px;
+	margin: 48px;
+}
+
+
+.mouseout
+{
+	border: 6px #ff9999 outset;
+	color: #ff2345;
+	background-color: #2345ff;
+}
+
+
+.mouseover
+{
+	border: 6px #00ff00 inset;
+	color: #129921;
+	background-color: #696969;
+	cursor: progress;				
+}
+
+
+#nodisplay
+{
+	color: #654321;
+	background-color: #fedcba;
+	padding: 12px;
+	width: 600px center;
+	text-align: center;
+}
+
+
+#display
+{
+	display: block;
+}
