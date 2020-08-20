@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>ASP.NET Homework 04</h1>
+			<br>
+			<hr>
+
+		<h3>Question 1</h3>
+		What are the .NET SDK command line tools used for? Is their use required? Why or why not?
+
+		<h3>Answer</h3>
+		NET Core SDK is a set of libraries and tools that allow developers to create . NET Core applications and libraries. It contains the following components that are used to build and run applications: ... NET Core libraries and runtime.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 2</h3>
+		What kind of applications do the following templates create? Run these commands and read the
+		documentation. A brief summary of each template is sufficient.
+
+		<h3>Answer</h3>
+		<h4>dotnet new console --help</h4>
+		console application
+		Options:
+		  -h, --help          Displays help for this command.
+		  -l, --list          Lists templates containing the specified name. If no name is specified, lists all templates.
+		  -n, --name          The name for the output being created. If no name is specified, the name of the current directory is used.
+		  -o, --output        Location to place the generated output.
+		  -i, --install       Installs a source or a template pack.
+		  -u, --uninstall     Uninstalls a source or a template pack.
+		  --nuget-source      Specifies a NuGet source to use during install.
+		  --type              Filters templates based on available types. Predefined values are "project", "item" or "other".
+		  --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
+		  --force             Forces content to be generated even if it would change existing files.
+		  -lang, --language   Filters templates based on language and specifies the language of the template to create.
+		  --update-check      Check the currently installed template packs for updates.
+		  --update-apply      Check the currently installed template packs for update, and install the updates.
+
+		<h4>dotnet new mvc --help</h4>
+		Model View Controller
+		Options:
+		  -h, --help          Displays help for this command.
+		  -l, --list          Lists templates containing the specified name. If no name is specified, lists all templates.
+		  -n, --name          The name for the output being created. If no name is specified, the name of the current directory is used.
+		  -o, --output        Location to place the generated output.
+		  -i, --install       Installs a source or a template pack.
+		  -u, --uninstall     Uninstalls a source or a template pack.
+		  --nuget-source      Specifies a NuGet source to use during install.
+		  --type              Filters templates based on available types. Predefined values are "project", "item" or "other".
+		  --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
+		  --force             Forces content to be generated even if it would change existing files.
+		  -lang, --language   Filters templates based on language and specifies the language of the template to create.
+		  --update-check      Check the currently installed template packs for updates.
+		  --update-apply      Check the currently installed template packs for update, and install the updates.
+
+		<h4>dotnet new web --help</h4>
+		for creating asp.net it doesnt have mvc
+		Options:
+		  -h, --help          Displays help for this command.
+		  -l, --list          Lists templates containing the specified name. If no name is specified, lists all templates.
+		  -n, --name          The name for the output being created. If no name is specified, the name of the current directory is used.
+		  -o, --output        Location to place the generated output.
+		  -i, --install       Installs a source or a template pack.
+		  -u, --uninstall     Uninstalls a source or a template pack.
+		  --nuget-source      Specifies a NuGet source to use during install.
+		  --type              Filters templates based on available types. Predefined values are "project", "item" or "other".
+		  --dry-run           Displays a summary of what would happen if the given command line were run if it would result in a template creation.
+		  --force             Forces content to be generated even if it would change existing files.
+		  -lang, --language   Filters templates based on language and specifies the language of the template to create.
+		  --update-check      Check the currently installed template packs for updates.
+		  --update-apply      Check the currently installed template packs for update, and install the updates.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 3</h3>
+		What, specifically, do the following commands do?
+
+		<h3>Answer</h3>
+		dotnet new globaljson --sdk-version 3.1.101 --output MySolution/MyProject
+		dotnet new web --no-https --output MySolution/MyProject --framework netcoreapp3.1
+		dotnet new sln -o MySolution
+		dotnet sln MySolution add MySolution/MyProject
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 4</h3>
+		What is the purpose of the global.json file?
+
+		<h3>Answer</h3>
+		It allows you to define which .NET Core SDK version is used when you run .NET Core CLI commands.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 5</h3>
+		What does the method app.UseStaticFiles() do?
+
+		<h3>Answer</h3>
+		Add support for http request and the static content folder (wwroot)
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 6</h3>
+		What do the following two commands do?
+
+		<h3>Answer</h3>
+		<h4>dotnet build</h4>
+		Builds it source code turn it into byte code
+		<h4>dotnet run</h4>
+		Byte code into machine code then sends it to compiler then pc to run it
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 7</h3>
+		(Not in book) You cah manage pacakges using the NuGet package manager and the command line tool
+		dotnet add package. What are packages and what are they used for.
+
+		<h3>Answer</h3>
+		.NET packages are added to a project with the dotnet add package command. Most projects require additional features beyond those set up by the project templates, such as support for accessing databases or for making HTTP requests, neither of which is included in the standard ASP.NET Core packages added to the project by the template used to create the example project. In the sections that follow, I describe the tools available to manage the different types of packages that are used in ASP.NET Core development.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 8</h3>
+		What are tool packages and what are they used for?
+
+		<h3>Answer</h3>
+		Tool packages install command that can be used from the command line to perform operation on .NET Core porjects. Common example is the Entity Framework core tools package that installs commands that are used to manage databases in ASP.NET Core projects. They are managed using the dotnet tool command
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 9</h3>
+		What are server side packages and what are they used for?
+
+		<h3>Answer</h3>
+		It allows us to instead store the information in a database and dynamically contruct and return HTML and other types of files. It is also possible to simply return data.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 10</h3>
+		What are client side packages and what are they used for?
+
+		<h3>Answer</h3>
+		Client-side packages contain content that is delivered to the client, such as images, CSS stylesheets, JavaScript files, and static
+		HTML. Client-side packages are added to ASP.NET Core using the Library Manager (LibMan) tool. To install the LibMan tool
+		package.
+			<br>
+			<br>
+			<hr>
+
+
+
+		<h3>Question 11</h3>
+		List two ways that a developer can debug code.
+
+		<h3>Answer</h3>
+		debugger option
+		console.writeline to seewhat it returns
+		
+
+	</body>
+</html>
+
