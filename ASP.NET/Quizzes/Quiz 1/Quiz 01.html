@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS Quiz 01</title>
+        <style>
+                div {
+                        border: 2px black solid;
+                        text-align: center;
+                        font-size: 24pt;
+                }
+                #master {
+                        display: grid;
+                        grid-template-columns: 10% 45% 45%;
+                        grid-template-rows: 200px 100px 600px 100px;
+                }
+                #div01 {
+                        grid-column-start: 1;
+                        grid-column-end: 6;
+                        grid-row-start: 0;
+                        grid-row-start: 1;
+                        background-image: url("Banner.jpg");
+                        font-family: sans-serif;
+                        font-size: 66pt;
+                        text-align: center;
+                        padding: 30px;
+                        color: #32CD32;
+                }
+                #div02 {
+                        background-color: #32CD32;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 1;
+                        grid-row-start: 2;
+                        text-align: right;
+
+                }
+                #div03 {
+                        background-color: black;
+                        grid-column-start: 1;
+                        grid-column-end: 2;
+                        grid-row-start: 2;
+                        grid-row-start: 3;
+                        text-align: center;
+                        color: #32CD32;
+                        padding: 10px;
+
+                }
+                #div04 {
+                        background-color: #ffffaa;
+                        grid-column-start: 2;
+                        grid-column-end: 4;
+                        grid-row-start: 2;
+                        grid-row-start: 3;
+                        border: none;
+                        background-image: url("The-Matrix-3-heads.jpg");
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: cover;
+                        background-position: center-bottom;
+                        font-family: sans-serif;
+                        font-size: 45pt;
+                        color: #32cd32;
+                        text-align: center-bottom;
+                        padding-top: 500px;
+                    }
+                
+                #div06 {
+                        background-color: #aaffff;
+                        grid-column-start: 1;
+                        grid-column-end: 4;
+                        grid-row-start: 3;
+                        grid-row-start: 4;
+                        background-color: #32CD32;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>HTML & CSS Quiz 01</h1>
+        <div id="master">
+            <div id="div01"> The matrix has you....</div>
+            <div id="div02"><pre class="tab"><span style="text-decoration: underline;">Matrix Computers</span>     <span style="text-decoration: underline;">Matrix Ships</span>    <span style="text-decoration: underline;">Matrix Bots</span>    <span style="text-decoration: underline;">Matrix Administration</span></pre></div>
+            <div id="div03"> 
+                Throughout human history,<br> 
+                we have been dependent on machines to survive. <br>
+                Fate, it seems, <br>
+                is not without a sense of irony.<br>
+                MORPHEUS<br>
+            </div>
+            <div id="div04">The Matrix Crew</div>
+            <div id="div06"> <pre class="tab"> Matrix Helpdesk        Matrix Contact Info         Matrix Web Design</pre></div>
+        </div>
+    </body>
+</html>
