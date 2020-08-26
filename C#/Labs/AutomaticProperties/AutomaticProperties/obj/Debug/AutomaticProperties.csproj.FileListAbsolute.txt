@@ -1,0 +1,7 @@
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.exe.config
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.exe
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.pdb
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.csprojAssemblyReference.cache
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.csproj.CoreCompileInputs.cache
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.exe
+C:\Users\Tyra\quantico06\ISTA322\C#\Labs\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.pdb

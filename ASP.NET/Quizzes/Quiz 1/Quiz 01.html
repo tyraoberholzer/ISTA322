@@ -8,6 +8,10 @@
                         text-align: center;
                         font-size: 24pt;
                 }
+                body
+                {
+                    background-color: black;
+                }
                 #master {
                         display: grid;
                         grid-template-columns: 10% 45% 45%;
@@ -72,13 +76,39 @@
                         grid-row-start: 4;
                         background-color: #32CD32;
                 }
+                .mouseout
+                {
+                    color: black;
+                }
+
+
+                .mouseover
+                {
+                    color: #0000FF; 
+                    cursor: progress;               
+                }
+                .mouseout1
+                {
+                    color: #32CD32;
+                }
+
+
+                .mouseover1
+                {
+                    color: #0000FF; 
+                    cursor: progress;               
+                }
         </style>
     </head>
     <body>
-        <h1>HTML & CSS Quiz 01</h1>
+        <h1 style="color: #32CD32;">HTML & CSS Quiz 01</h1>
         <div id="master">
             <div id="div01"> The matrix has you....</div>
-            <div id="div02"><pre class="tab"><span style="text-decoration: underline;">Matrix Computers</span>     <span style="text-decoration: underline;">Matrix Ships</span>    <span style="text-decoration: underline;">Matrix Bots</span>    <span style="text-decoration: underline;">Matrix Administration</span></pre></div>
+            <div id="div02" >
+                <pre class="tab">
+                    <span style="text-decoration: underline;" class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Computers</span>     <span style="text-decoration: underline;" class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Ships</span>    <span style="text-decoration: underline;" class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Bots</span>    <span style="text-decoration: underline;" class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Administration</span>
+                </pre>
+            </div>
             <div id="div03"> 
                 Throughout human history,<br> 
                 we have been dependent on machines to survive. <br>
@@ -86,8 +116,8 @@
                 is not without a sense of irony.<br>
                 MORPHEUS<br>
             </div>
-            <div id="div04">The Matrix Crew</div>
-            <div id="div06"> <pre class="tab"> Matrix Helpdesk        Matrix Contact Info         Matrix Web Design</pre></div>
+            <div id="div04"><span class="mouseout1" onmouseover="this.className='mouseover1'" onmouseout="this.className='mouseout1'">The Matrix Crew</span></div>
+            <div id="div06"> <pre class="tab"> <span class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Helpdesk</span>        <span class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Contact Info</span>         <span class="mouseout" onmouseover="this.className='mouseover'" onmouseout="this.className='mouseout'">Matrix Web Design</span></pre></div>
         </div>
     </body>
 </html>

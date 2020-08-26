@@ -1,0 +1,7 @@
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\bin\Debug\Exercise 07.exe.config
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\bin\Debug\Exercise 07.exe
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\bin\Debug\Exercise 07.pdb
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\obj\Debug\Exercise 07.csprojAssemblyReference.cache
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\obj\Debug\Exercise 07.csproj.CoreCompileInputs.cache
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\obj\Debug\Exercise 07.exe
+C:\Users\Tyra\quantico06\ISTA322\C#\Exercises\Exercise Work\Exercise 07\obj\Debug\Exercise 07.pdb
